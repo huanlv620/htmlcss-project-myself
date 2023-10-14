@@ -98,24 +98,35 @@ a {
 /* main */
 /* Hero */
 .hero {
-    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: calc(100vh - 65px - 44px);
 }
 
 .hero .body {
     display: flex;
+    align-items: center;
 }
 
-.hero .content {
-    padding-top: 93px;
+.hero .info {
+    width: 40%;
 }
 
-.hero .content .sub-title {
+.hero .image {
+    position: absolute;
+    bottom: 0;
+    right: calc((100vw - 1170px) / 2);
+}
+
+.hero .info .sub-title {
     font-size: 1.4rem;
     line-height: 21px;
     color: #767e7e;
 }
 
-.hero .content .title {
+.hero .info .title {
+    max-width: 458px;
     margin-top: 18px;
     font-weight: 700;
     font-size: 6.2rem;
@@ -123,7 +134,7 @@ a {
     color: #0d1111;
 }
 
-.hero .content .desc {
+.hero .info .desc {
     margin-top: 46px;
     font-size: 1.8rem;
     line-height: 1.78;
@@ -132,12 +143,12 @@ a {
     width: 374px;
 }
 
-.hero .content .cta {
+.hero .info .cta {
     display: flex;
     margin-top: 52px;
 }
 
-.hero .content .icon {
+.hero .info .icon {
     cursor: pointer;
     margin-left: 50px;
     display: flex;
@@ -149,11 +160,6 @@ a {
     border-radius: 50%;
 }
 /* Hero media block */
-.hero .body .media-block {
-    position: relative;
-    width: 49%;
-    margin-left: auto;
-}
 
 .hero .hero-card-1 {
     position: absolute;
@@ -192,7 +198,7 @@ a {
     line-height: 1.5;
     color: #0d1111;
 }
-
+/* hero  */
 .hero .hero-card-2 {
     position: absolute;
     bottom: 46px;
@@ -272,4 +278,12 @@ a {
 
 .hero .hero-card-3 img:first-child {
     margin-left: 0;
+}
+
+/* Feature */
+
+.feature {
+    margin-top: 20px;
+    height: 200px;
+    background-color: red;
 }
