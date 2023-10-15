@@ -380,6 +380,7 @@ a {
     line-height: 21px;
     text-decoration-line: underline;
     color: #1ebfc1;
+    cursor: pointer;
 }
 
 .courses .list-course {
@@ -603,4 +604,36 @@ a {
 .feedback .feedback-item .img-feedback:nth-child(6) {
     right: 601px;
     bottom: 145px;
+}
+
+/* CTA */
+.cta {
+    margin-top: 130px;
+    padding: 76px 0 88px;
+    background-color: #def6f5;
+}
+
+.cta .row {
+    display: flex;
+    align-items: center;
+}
+
+.cta .body .title {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 63px;
+    color: #070707;
+}
+
+.cta .body .sub-tile {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #767e7e;
+}
+
+.cta .btn {
+    display: inline-block;
+    margin-left: 410px;
+    height: 68px;
 }
