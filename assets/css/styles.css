@@ -176,15 +176,21 @@ a {
     box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
 }
 
-.hero .block {
-    padding-top: 28px;
+.hero .hero-card-1 .block {
+    position: relative;
+    flex-shrink: 0;
+    padding: 0 4px;
     width: 36px;
     height: 40px;
     background-color: #ff8282;
     border-radius: 4px;
 }
 
-.hero .block .line {
+.hero .hero-card-1 .block::after {
+    position: absolute;
+    bottom: 8px;
+    content: "";
+    display: block;
     margin: 0 auto;
     width: 28px;
     height: 4px;
