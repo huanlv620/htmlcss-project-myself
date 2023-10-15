@@ -41,8 +41,8 @@ a {
     margin-right: auto;
     max-width: calc(100% - 48px);
 }
-/* Header */
 
+/* Header */
 .header.fixed {
     position: sticky;
     top: 0;
@@ -70,6 +70,7 @@ a {
     color: #2f3a3b;
 }
 
+.header li a.active,
 .header li a:hover {
     text-shadow: 1px 0 0 currentColor;
     color: #2f3a3b;
@@ -96,7 +97,6 @@ a {
     margin-left: 24px;
 }
 
-/* main */
 /* Hero */
 .hero {
     display: flex;
