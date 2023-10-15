@@ -66,7 +66,7 @@ a {
 .header ul li a {
     padding: 0px 20px;
     font-size: 1.6rem;
-    line-height: 24px;
+    line-height: 1.5;
     color: #2f3a3b;
 }
 
@@ -83,18 +83,18 @@ a {
 
 .header .actions a:first-child {
     font-size: 1.6rem;
-    line-height: 24px;
+    line-height: 1.5;
     color: #494949;
 }
 
 .header .actions .btn {
     min-width: 108px;
     padding: 10px 10px;
+    border: 1px solid #1ebfc1;
+    margin-left: 24px;
     border-radius: 6px;
     color: #1ebfc1;
     background-color: #fff;
-    border: 1px solid #1ebfc1;
-    margin-left: 24px;
 }
 
 /* Hero */
@@ -122,7 +122,7 @@ a {
 
 .hero .info .sub-title {
     font-size: 1.4rem;
-    line-height: 21px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
@@ -136,12 +136,11 @@ a {
 }
 
 .hero .info .desc {
+    width: 374px;
     margin-top: 46px;
     font-size: 1.8rem;
     line-height: 1.78;
-    line-height: 32px;
     color: #9da6a5;
-    width: 374px;
 }
 
 .hero .info .group {
@@ -160,8 +159,8 @@ a {
     background-color: #fff;
     border-radius: 50%;
 }
-/* Hero media block */
 
+/* Hero media block */
 .hero .hero-card-1 {
     position: absolute;
     left: -65px;
@@ -291,7 +290,7 @@ a {
 .feature .sub-title {
     font-weight: 700;
     font-size: 1.2rem;
-    line-height: 18px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
@@ -307,7 +306,7 @@ a {
 .feature .desc {
     width: 50%;
     font-size: 1.8rem;
-    line-height: 27px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
@@ -324,14 +323,14 @@ a {
     margin: 26px 0 16px;
     font-weight: 600;
     font-size: 2rem;
-    line-height: 30px;
+    line-height: 1.5;
     color: #0d1111;
 }
 
 .feature .item .desc {
     width: 223px;
     font-size: 1.6rem;
-    line-height: 27px;
+    line-height: 1.69;
     color: #9da6a5;
 }
 
@@ -344,7 +343,7 @@ a {
 .courses .sub-tile {
     font-weight: 700;
     font-size: 1.2rem;
-    line-height: 18px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
@@ -352,7 +351,7 @@ a {
     margin-top: 18px;
     font-weight: 700;
     font-size: 4.2rem;
-    line-height: 63px;
+    line-height: 1.5;
     color: #0d1111;
 }
 
@@ -373,7 +372,7 @@ a {
 .courses .row .view-course {
     font-weight: 700;
     font-size: 1.4rem;
-    line-height: 21px;
+    line-height: 1.5;
     text-decoration-line: underline;
     color: #1ebfc1;
     cursor: pointer;
@@ -417,14 +416,14 @@ a {
 .courses .block-course .heading a {
     font-weight: 700;
     font-size: 2.2rem;
-    line-height: 33px;
+    line-height: 1.5;
     color: #0d1111;
 }
 
 .courses .block-course .desc {
     margin-top: 16px;
     font-size: 1.6rem;
-    line-height: 24px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
@@ -438,7 +437,7 @@ a {
 .courses .block-course .desc:nth-of-type(2) {
     margin-top: 6px;
     font-size: 1.4rem;
-    line-height: 21px;
+    line-height: 1.5;
     color: #9da6a5;
 }
 
@@ -451,7 +450,7 @@ a {
 .courses .block-course .group p {
     margin-right: 10px;
     font-size: 1.4rem;
-    line-height: 21px;
+    line-height: 1.5;
     color: #9da6a5;
 }
 
@@ -482,14 +481,14 @@ a {
 .stats .body span {
     font-weight: 700;
     font-size: 6.2rem;
-    line-height: 93px;
+    line-height: 1.5;
     color: #0d1111;
 }
 
 .stats .body p {
     margin-top: 11px;
     font-size: 1.8rem;
-    line-height: 27px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
@@ -527,14 +526,14 @@ a {
 .feedback .feedback-item .name {
     margin-top: 33px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #767e7e;
 }
 
 .feedback .feedback-item strong {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     color: #070707;
 }
 
@@ -617,14 +616,14 @@ a {
 .cta .body .title {
     font-weight: 700;
     font-size: 4.2rem;
-    line-height: 63px;
+    line-height: 1.5;
     color: #070707;
 }
 
 .cta .body .sub-tile {
     margin-top: 18px;
     font-size: 1.8rem;
-    line-height: 27px;
+    line-height: 1.8;
     color: #767e7e;
 }
 
@@ -650,7 +649,7 @@ a {
 .footer .item h3 {
     font-weight: 500;
     font-size: 1.8rem;
-    line-height: 27px;
+    line-height: 1.5;
     color: #2e2e2e;
 }
 
@@ -662,7 +661,7 @@ a {
     white-space: nowrap;
     display: inline-block;
     font-size: 1.6rem;
-    line-height: 24px;
+    line-height: 1.5;
     color: #535353;
     margin-top: 18px;
 }
@@ -687,6 +686,6 @@ a {
 
 .footer .copyright p {
     font-size: 1.8rem;
-    line-height: 27px;
+    line-height: 1.5;
     color: #b0b5b4;
 }
