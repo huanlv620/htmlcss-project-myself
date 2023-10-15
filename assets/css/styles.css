@@ -24,7 +24,6 @@ a {
 .btn {
     display: inline-block;
     background: #1ebfc1;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
     border-radius: 14px;
     font-weight: 600;
     font-size: 1.8rem;
@@ -33,6 +32,11 @@ a {
     color: #ffffff;
     min-width: 168px;
     padding: 20px 10px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
 }
 
 .main-content {
