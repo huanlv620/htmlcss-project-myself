@@ -43,19 +43,20 @@ a {
 }
 
 /* Header */
+.header {
+    padding: 52px 0px 8px;
+}
 .header.fixed {
     position: sticky;
-    top: 0;
+    top: -44px;
     z-index: 1;
     background-color: #fff;
 }
 
 .header .body {
-    margin-top: 44px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 0;
     /* background-color: red; */
 }
 
