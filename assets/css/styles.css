@@ -374,8 +374,11 @@ a {
     font-weight: 700;
     font-size: 1.4rem;
     line-height: 1.5;
-    text-decoration-line: underline;
     color: #1ebfc1;
+}
+
+.courses .row .view-course:hover {
+    text-decoration-line: underline;
     cursor: pointer;
 }
 
