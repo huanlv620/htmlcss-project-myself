@@ -46,6 +46,25 @@ a {
     max-width: calc(100% - 48px);
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+
+.line-clamp.line-3 {
+    --line-clamp: 3;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
 /* Header */
 .header {
     padding: 52px 0px 8px;
