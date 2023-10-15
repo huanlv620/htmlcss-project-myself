@@ -467,7 +467,8 @@ a {
 
 /* Stats */
 .stats {
-    margin-top: 256px;
+    margin-top: 106px;
+    padding-top: 150px;
 }
 
 .stats .main-content {
