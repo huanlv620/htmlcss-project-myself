@@ -397,13 +397,12 @@ a {
     height: 393px;
     background: #d0efed;
     object-fit: cover;
-    opacity: 0.35;
     border-radius: 8px;
     transition: all ease 0.4s;
 }
 
 .courses .course-item img:hover {
-    opacity: 1;
+    opacity: 0.35;
 }
 
 .courses .course-item .block-course {
