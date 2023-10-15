@@ -467,13 +467,17 @@ a {
 }
 
 .courses .block-course .group p {
+    display: flex;
+    align-items: center;
     margin-right: 10px;
     font-size: 1.4rem;
     line-height: 1.5;
     color: #9da6a5;
 }
 
-.courses .block-course .group span {
+.courses .block-course .group p::before {
+    display: block;
+    content: "";
     margin-right: 10px;
     content: "";
     display: inline-block;
