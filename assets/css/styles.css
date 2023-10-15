@@ -95,6 +95,7 @@ a {
     border: 1px solid #1ebfc1;
     margin-left: 24px;
     border-radius: 6px;
+    box-shadow: none;
     color: #1ebfc1;
     background-color: #fff;
 }
@@ -583,6 +584,7 @@ a {
 .feedback .feedback-item .block-item:hover {
     background: #2ac9bf;
     color: #fff;
+    opacity: 0.9;
 }
 
 .feedback .feedback-item .img-feedback {
