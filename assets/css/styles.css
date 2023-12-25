@@ -60,7 +60,6 @@ a {
 .line-clamp.line-3 {
     --line-clamp: 3;
 }
-
 .break-all {
     word-break: break-all;
 }
@@ -352,12 +351,10 @@ a {
 }
 
 .feature .row {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 200px;
     margin-top: 80px;
-}
-
-.feature .row .item {
-    flex: 1;
 }
 
 .feature .item .heading {
@@ -377,7 +374,7 @@ a {
 
 /* Course */
 .courses {
-    padding: 130px;
+    padding-top: 130px;
     background-color: #fff;
 }
 
@@ -423,8 +420,9 @@ a {
 }
 
 .courses .list-course {
-    display: flex;
-    gap: 0 47px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 47px;
     margin-top: 79px;
 }
 
@@ -736,8 +734,8 @@ a {
 }
 
 .footer .copyright {
-    text-align: center;
     margin-top: 80px;
+    text-align: center;
 }
 
 .footer .copyright p {
