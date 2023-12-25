@@ -136,6 +136,10 @@
         display: none;
     }
 
+    .menu-drawer {
+        inset: 0 40% 0 0;
+    }
+
     .hero .info .title {
         font-size: 5rem;
     }
