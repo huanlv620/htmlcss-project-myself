@@ -141,6 +141,23 @@
 
 /* Mobile */
 @media screen and (max-width: 767.98px) {
+    html,
+    body {
+        overscroll-behavior: none;
+    }
+
+    .header.fixed {
+        top: -8px;
+    }
+
+    .header {
+        padding: 15px 0px 8px;
+    }
+
+    main {
+        padding-top: 50px;
+    }
+
     .menu-drawer-inner {
         display: flex;
         justify-content: space-between;
@@ -162,12 +179,18 @@
         inset: 0 20% 0 0;
     }
 
+    .feature {
+        margin: 0;
+    }
+
     .feature .row,
     .courses .list-course {
         grid-template-columns: 1fr;
         row-gap: 60px;
     }
-
+    .courses {
+        padding-top: 100px;
+    }
     .courses .list-course {
         row-gap: 160px;
     }
@@ -177,6 +200,10 @@
         flex-direction: column;
         row-gap: 60px;
         text-align: center;
+    }
+
+    .feedback {
+        margin-top: 100px;
     }
 
     .feedback .feedback-item {
